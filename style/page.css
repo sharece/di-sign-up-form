@@ -41,36 +41,7 @@ body {
   text-align: center;
   background-color: var(--blue);
 }
-/* @media (min-width: 520px) {
-  .container {
-    margin: 20px 80px;
-  }
-} */
 
-/* @media (min-width: 870px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .word-chunk {
-    text-align: left;
-    margin-right: 50px;
-  }
-} */
-
-/* @media (min-width: 1189px) */
-/* @media (min-width: 870px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .word-chunk {
-    text-align: left;
-    margin-right: 50px;
-  }
-} */
 @media (min-width: 1441px) {
   body {
     background-image: url("images/bg-intro-desktop.png");
