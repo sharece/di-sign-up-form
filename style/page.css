@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px 20px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: #fff;
+  font-weight: 500;
+  background: var(--red) url(../images/bg-intro-desktop.png) center / cover;
+}
+.word-chunk {
+  text-align: center;
+  width: 100%;
+}
+
+.purple-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-purp {
+  margin-top: 50px;
+  padding: 2px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px rgb(0 0 0 / 0.1);
+  text-align: center;
+  background-color: var(--blue);
+}
+/* @media (min-width: 520px) {
+  .container {
+    margin: 20px 80px;
+  }
+} */
+
+/* @media (min-width: 870px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .word-chunk {
+    text-align: left;
+    margin-right: 50px;
+  }
+} */
+
+/* @media (min-width: 1189px) */
+/* @media (min-width: 870px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .word-chunk {
+    text-align: left;
+    margin-right: 50px;
+  }
+} */
+@media (min-width: 1441px) {
+  body {
+    background-image: url("images/bg-intro-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/bg-intro-desktop.png");
+  height: 100vh;
+}
+
+.word-chunk {
+  color: white;
+  width: 50%;
+  padding: 0 100px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.purp-and-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
